@@ -56,7 +56,7 @@ public class SoonFragment extends Fragment {
     }
 
     private void downloadDataSource() {
-        String url = "http://api.themoviedb.org/3/movie/top_rated?&api_key=d4bee1442fda04e0b421566f1a54e4ae";
+        String url = "https://api.themoviedb.org/3/movie/top_rated?api_key=af2048ac88d2f711883215fe01ae1ead&language=en-US&page=1";
 
         GsonGetRequest<SourcesResponse> myRequest = new GsonGetRequest<SourcesResponse>
                 (url, SourcesResponse.class, null, new Response.Listener<SourcesResponse>() {
