@@ -15,6 +15,7 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl204.movies.R;
 public class SavedFragment extends Fragment {
     public SavedFragment() {
         // Required empty public constructor
+
     }
 
 
